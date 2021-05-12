@@ -6,7 +6,7 @@ namespace TreebankInterpreter
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+         
         }
     }
 }
