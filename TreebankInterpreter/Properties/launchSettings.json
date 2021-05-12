@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TreebankInterpreter": {
+      "commandName": "Project",
+      "commandLineArgs": "../../../NapierDianne.mrg"
+    }
+  }
+}
