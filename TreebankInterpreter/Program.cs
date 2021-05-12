@@ -10,7 +10,7 @@ namespace TreebankInterpreter
 
         static void Main(string[] args)
         {
-            bool isADirector = true; // path query
+            bool isADirector = true; // TODO path query 
             string location = args[0];
             if (isADirector)
             {                
@@ -50,9 +50,7 @@ namespace TreebankInterpreter
                     }
                     foreach(String sentence in sentenceStack)
                     {
-                        Console.WriteLine("$$");
-                        Console.WriteLine(sentence);
-                        Console.WriteLine("$$");
+                        
                     }
 
                 }
