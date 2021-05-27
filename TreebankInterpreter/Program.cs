@@ -50,7 +50,8 @@ namespace TreebankInterpreter
                     }
                     foreach(String sentence in sentenceStack)
                     {
-                        
+                        TextDependencyCreator dependencyCreator = new TextDependencyCreator(sentence);
+                        dependencyCreator.generateNodes();
                     }
 
                 }
